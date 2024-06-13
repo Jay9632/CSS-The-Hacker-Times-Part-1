@@ -101,3 +101,76 @@ body {
     color: #333;
   }
   
+  /* Styling for the navigation bar */
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Change background color to white */
+  z-index: 1000; /* Ensure the navigation stays on top of other content */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main h2 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+main h5 {
+  font-size: 1.1em;
+  color: #777;
+  margin-top: 0;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+main p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #333;
+}
+
+.more-articles section {
+  margin-top: 20px;
+}
+
+.more-articles h4 {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.more-articles img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.more-articles p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #333;
+}
